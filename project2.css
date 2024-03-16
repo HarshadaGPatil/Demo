@@ -1,0 +1,209 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+.logo {
+ 
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 50px;
+
+}
+.nav ul li {
+    margin:30px 30px ;
+    list-style-type: none;
+  }
+  .nav ul li a {
+    
+    font-size: 40px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+  }
+  .Promo{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://assets.newatlas.com/dims4/default/79a88cb/2147483647/strip/true/crop/9504x6336+0+0/resize/720x480!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F59%2F5b%2Fd716667f48e49b754c55b22e8729%2Ffw-chromebook-repairing-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.Promo span{
+    font-size: 50px;
+    color: white;
+}
+.Promo p{
+    color: white;
+    font-size: 20px;
+    margin-top: 120px;
+}
+.Promo h3{
+    color: gray;
+    margin-top: 50px;
+}
+
+
+  .Look{
+    height: 400px;
+    width: 40%;
+    
+    float: left; 
+    margin-top: -100px;
+    margin-left: 30px;
+  }
+  .Look h1 details{
+    text-align: center;
+  }
+
+  .Look details{
+    margin-top:20px ;
+  }
+  .Look hr{
+    margin-top: 50px;
+  }
+  .Info{
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  .Info img{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+   margin-left: 700px;
+   border-radius: 50%;
+  }
+  .Info p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .Info h2{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .Info h4{
+    text-align: center;
+    margin-top: 30px;
+    color: grey;
+  }
+  .Stay{
+    height: 460px;
+    width: 100%;
+    background-color: black;
+  }
+  .Stay h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+  .Stay p{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  
+  input[type=text], input[type=number] {
+    margin-left: 50px;
+    width: 70%;
+    padding: 15px;
+    margin: 20px 0 0px 190px;
+    display: inline-block;
+    border: none;
+    height: 50px;
+  }
+  .Icons{
+    height: 50px;
+    width: 250px;
+   
+    margin-left: 600px;
+    margin-top: 60px;
+  }
+  .Icons i{
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  iframe{
+    margin-top: 30px;
+  }
+  .footer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  }
+  .level{
+    height: 400px;
+    width: 25%;
+    padding-top: 150px;
+  padding-left: 150px;
+  }
+  .level h1{
+    color: white;
+  }
+  .level h4{
+    color: grey;
+    margin-top: 20px;
+  }
+  .Icons2{
+    height: 50px;
+    width: 250px;
+    margin-top: 80px;
+  }
+  .Icons2 i{
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .Company{
+    height: 400px;
+    width: 20%;
+    padding-top: 150px;
+    padding-left: 150px;
+  }
+  .Company h1{
+        color: white;
+  }
+  .Company h4{
+    color: grey;
+    margin-top: 20px;
+  }
+  .Contacts{
+    height: 400px;
+    width: 20%;
+    padding-top: 150px;
+    padding-left: 150px;
+  }
+  .Contacts h1{
+    color: white;
+}
+.Contacts h4{
+    color: grey;
+    margin-top: 20px;
+  }
+  .Newsletter{
+    height: 400px;
+    width: 20%;
+    padding-top: 150px;
+    padding-left: 100px;
+  }
+  .Newsletter label{
+    width: 60%;
+  }
+  .Newsletter p{
+    color: grey;
+    margin-top: 20px;
+   
+  }
